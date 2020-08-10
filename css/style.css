@@ -1682,6 +1682,7 @@ h3 {
   z-index: 9;
   background-size: cover;
   position: absolute;
+  border: 5px solid #615CFD;
   background-size: cover;
   background-position: center center;
 }
@@ -1716,7 +1717,7 @@ h3 {
 
 /* line 33, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area .about_info {
-  padding: 160px 0;
+  padding: 60px 0;
 }
 
 @media (max-width: 767px) {
@@ -2146,7 +2147,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/inctf-wp.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2156,7 +2157,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .breadcam_bg_3 {
-  background-image: url(../img/banner/bradcam_3.png);
+  background-image: url(../img/banner/bradcam.png);
 }
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2172,6 +2173,7 @@ h3 {
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
+  background-attachment: fixed;
 }
 
 /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2642,8 +2644,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area {
-  padding-top: 155px;
-  padding-bottom: 130px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -2664,7 +2666,7 @@ h3 {
 /* line 11, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service {
   padding: 48px 35px 45px 35px;
-  border: 2px solid #E8E8E8;
+  border: 2px solid #615CFD;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2801,7 +2803,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area {
-  padding-top: 147px;
+  padding-top: 60px;
   padding-bottom: 130px;
   position: relative;
 }
@@ -3281,7 +3283,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area {
-  padding-top: 155px;
+  padding-top: 60px;
   padding-bottom: 122px;
 }
 
@@ -3475,6 +3477,8 @@ h3 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
 .how_we_work_area {
   position: relative;
+  background: #1F1F1F;
+  color: #FFF
 }
 
 /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
@@ -3526,9 +3530,7 @@ h3 {
   background-image: url(../img/work/work.png);
   background-size: cover;
   background-position: center center;
-  -webkit-border-radius: 20px 0 0 20px;
-  -moz-border-radius: 20px 0 0 20px;
-  border-radius: 20px 0 0 20px;
+  border: 5px solid #615CFD;
 }
 
 @media (max-width: 767px) {
@@ -3547,7 +3549,7 @@ h3 {
 
 /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
 .how_we_work_area .work_info {
-  padding: 180px 0;
+  padding: 60px 0;
 }
 
 @media (max-width: 767px) {
@@ -3654,7 +3656,9 @@ h3 {
 .portfolio_details_banner {
   background: #1F1F1F;
   padding-top: 220px;
-  padding-bottom: 470px;
+  padding-bottom: 70px;
+  background: url(../img/pentest-wp.jpg) fixed;
+  background-size: cover;
 }
 
 @media (max-width: 767px) {
@@ -3740,7 +3744,7 @@ h3 {
 
 /* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
 .portfolio_details_wrap {
-  padding-bottom: 130px;
+  padding-bottom: 0px;
   position: relative;
   margin-top: -380px;
 }
@@ -3852,7 +3856,8 @@ h3 {
 
 /* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
+  border: 2px solid #615CFD;
+  color: #000;
   border-radius: 0px;
   height: 48px;
   padding-left: 18px;
@@ -3926,7 +3931,7 @@ h3 {
 
 /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 60px 0px 0 0;
 }
 
 @media (max-width: 991px) {
@@ -3959,7 +3964,7 @@ h3 {
 /* line 75, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .sample-text-area {
   background: #fff;
-  padding: 100px 0 70px 0;
+  padding: 60px 0 70px 0;
 }
 
 /* line 80, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
@@ -5245,7 +5250,7 @@ h6 {
 
 /* line 1089, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .section-top-border {
-  padding: 50px 0;
+  padding: 20px 0 25px 0;
   border-top: 1px dotted #eee;
 }
 
@@ -6929,3 +6934,8 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#hardware::before {
+  background: url('../img/portfolio_details/2.jpg') ;
+      background-size: cover;
+}
