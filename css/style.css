@@ -1035,6 +1035,7 @@ h3 {
   -moz-transition: 0.6s;
   -o-transition: 0.6s;
   transition: 0.6s;
+  background: #1F1F1F;
 }
 
 /* line 106, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1052,7 +1053,7 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: block;
-  color: #000;
+  color: #FFF;
 }
 
 /* line 115, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1674,17 +1675,16 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
   content: '';
-  background-image: url(../img/about/about.png);
+  background-image: url(../img/team/nullcon-hardware.jpg);
   left: 0;
   top: 0;
   height: 100%;
   width: 50%;
   z-index: 9;
-  background-size: cover;
   position: absolute;
   border: 5px solid #615CFD;
   background-size: cover;
-  background-position: center center;
+  background-position: center right;
 }
 
 @media (max-width: 767px) {
@@ -1986,8 +1986,8 @@ h3 {
 
 /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 100px;
-  padding-bottom: 160px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background: #1F1F1F;
 }
 
