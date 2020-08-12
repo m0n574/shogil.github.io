@@ -1685,6 +1685,7 @@ h3 {
   border: 5px solid #615CFD;
   background-size: cover;
   background-position: center right;
+  border-left: 0;
 }
 
 @media (max-width: 767px) {
@@ -3531,6 +3532,7 @@ h3 {
   background-size: cover;
   background-position: center center;
   border: 5px solid #615CFD;
+  border-right: 0;
 }
 
 @media (max-width: 767px) {
