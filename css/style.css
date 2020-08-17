@@ -1675,7 +1675,7 @@ h3 {
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
   content: '';
-  background-image: url(../img/team/nullcon-hardware.jpg);
+  background-image: url(../img/work/ctf.jpg);
   left: 0;
   top: 0;
   height: 100%;
@@ -1684,8 +1684,10 @@ h3 {
   position: absolute;
   border: 5px solid #615CFD;
   background-size: cover;
-  background-position: center right;
+  background-position: center;
   border-left: 0;
+  border-top: 0;
+  border-bottom-right-radius: 15%;
 }
 
 @media (max-width: 767px) {
@@ -3533,6 +3535,8 @@ h3 {
   background-position: center center;
   border: 5px solid #615CFD;
   border-right: 0;
+  border-bottom: 0;
+  border-top-left-radius: 15%;
 }
 
 @media (max-width: 767px) {
@@ -6940,4 +6944,11 @@ h6 {
 #hardware::before {
   background: url('../img/portfolio_details/2.jpg') ;
       background-size: cover;
+}
+
+.no-border-radius::before{
+  border-radius: 0;
+  border-bottom: 0;
+  background-image: url('../img/work/pentest.jpg');
+  background-size: cover
 }
