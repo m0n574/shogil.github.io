@@ -92,11 +92,15 @@
   align-content: center;
 }
 
-.roadmap-area .owl-nav .owl-prev {
+.roadmap-area .owl-nav .owl-prev  {
   left: auto;
   right: 5%;
+  margin-top: -40px !important;
 }
 
+.owl-next {
+  margin-top: -40px !important; 
+}
 .roadmap-area .owl-nav div:hover{
   color: #fa758e;
 }
